@@ -8,6 +8,7 @@ path_to_libs = os.getcwd()
 path_to_libs = os.path.join(path_to_libs, "plugins")
 sys.path.insert(0, path_to_libs)
 
+
 def main():
 	plugin_dir = "plugins"
 	# Сюда добавляем имена загруженных модулей
